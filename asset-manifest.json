@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/toolyt-assignment/static/css/main.d1b707e2.css",
-    "main.js": "/toolyt-assignment/static/js/main.26142a83.js",
+    "main.js": "/toolyt-assignment/static/js/main.348bdfcd.js",
     "index.html": "/toolyt-assignment/index.html",
     "main.d1b707e2.css.map": "/toolyt-assignment/static/css/main.d1b707e2.css.map",
-    "main.26142a83.js.map": "/toolyt-assignment/static/js/main.26142a83.js.map"
+    "main.348bdfcd.js.map": "/toolyt-assignment/static/js/main.348bdfcd.js.map"
   },
   "entrypoints": [
     "static/css/main.d1b707e2.css",
-    "static/js/main.26142a83.js"
+    "static/js/main.348bdfcd.js"
   ]
 }

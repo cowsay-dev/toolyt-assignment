@@ -16,7 +16,7 @@ function App() {
     <div className="h-screen relative">
       <QueryClientProvider client={client}>
         <Provider store={store}>
-          <Router basename="/toolyt-assignment">
+          <Router>
             <Navbar />
             <Sidebar />
             <Routes>

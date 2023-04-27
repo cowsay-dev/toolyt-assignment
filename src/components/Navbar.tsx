@@ -10,8 +10,7 @@ const Navbar = () => {
         className="flex items-center px-5 py-2 rounded-lg my-2 text-base font-semibold bg-white cursor-pointer"
         onClick={() => navigate("/")}
         style={{
-          backgroundColor:
-            currentLocation === "/toolyt-assignment" ? "#85f8f6" : "white",
+          backgroundColor: currentLocation === "/" ? "#85f8f6" : "white",
         }}
       >
         Contact
@@ -20,10 +19,7 @@ const Navbar = () => {
         className="flex items-center px-5 py-2 rounded-lg my-2 text-base font-semibold bg-white cursor-pointer"
         onClick={() => navigate("/chart")}
         style={{
-          backgroundColor:
-            currentLocation === "/toolyt-assignment/chart"
-              ? "#85f8f6"
-              : "white",
+          backgroundColor: currentLocation === "/chart" ? "#85f8f6" : "white",
         }}
       >
         Charts and Maps

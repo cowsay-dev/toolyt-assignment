@@ -16,7 +16,7 @@ const ContactCard = (props: ContactInterface) => {
     localStorage.setItem("contact-data", JSON.stringify(updatedData));
   };
   return (
-    <div className="flex flex-col w-60 bg-slate-50 rounded p-3 my-3 mx-2 shadow-md">
+    <div className="flex flex-col w-96 sm:w-60 bg-slate-50 rounded p-3 my-3 mx-2 shadow-md">
       <div className="h-fit w-full flex flex-col">
         <p className="text-xl">
           {props.firstName} {props.lastName}
